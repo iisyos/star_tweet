@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Send tweet
-      uses: iisyos/StarTweet@v1.0
+      uses: iisyos/star_tweet@v1.0
       with:
           consumer_key: ${{ secrets.CONSUMER_KEY }}
           consumer_secret: ${{ secrets.CONSUMER_SECRET }}
