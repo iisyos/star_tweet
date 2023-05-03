@@ -1,0 +1,24 @@
+name: 'StarTweet'
+description: 'GitHub Action that sends a thank you tweet to users who star your GitHub repository'
+author: 'okamos'
+inputs:
+  text:
+    required: false
+    description: 'tweet description'
+    default: '🌟 Thank you for starring our repository! We appreciate your support and will continue to deliver great content! 😃 #GitHub #Star'
+  consumer_key:
+    required: true
+    description: 'twitter consumer key'
+  consumer_secret:
+    required: true
+    description: 'twitter consumer secret'
+  access_token:
+    required: true
+    description: 'twitter access token'
+  access_token_secret:
+    required: true
+    description: 'twitter access token secret'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

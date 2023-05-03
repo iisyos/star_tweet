@@ -1,8 +1,8 @@
 <img src="./thumbnail.png" />
 
-# StarTweet
+# TweetOnStar
 
-StarTweet is a GitHub Action that sends a thank you tweet to users who star your GitHub repository.
+TweetOnStar is a GitHub Action that sends a thank you tweet to users who star your GitHub repository.
 
 ## Setup
 
