@@ -1,4 +1,4 @@
-name: 'StarTweet'
+name: 'TweetOnStar'
 description: 'GitHub Action that sends a thank you tweet to users who star your GitHub repository'
 author: 'okamos'
 inputs:
