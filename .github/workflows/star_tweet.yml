@@ -1,0 +1,16 @@
+name: StarTweet
+
+on: [watch]
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send tweet
+      uses: iisyos/star_tweet@v1.0
+      with:
+          consumer_key: ${{ secrets.CONSUMER_KEY }}
+          consumer_secret: ${{ secrets.CONSUMER_SECRET }}
+          access_token: ${{ secrets.ACCESS_TOKEN }}
+          access_token_secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          text: "🌟 Thank you for starring our repository! We appreciate your support and will continue to deliver great content! 😃 #GitHub #Star" # option
