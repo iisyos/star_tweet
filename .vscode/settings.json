@@ -6,6 +6,9 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
-    "eslint.workingDirectories": ["./"]
+    "eslint.workingDirectories": [
+      "./"
+    ],
+    "sarif-viewer.connectToGithubCodeScanning": "on"
   }
   
